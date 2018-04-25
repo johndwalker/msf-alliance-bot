@@ -1,0 +1,37 @@
+{
+  "name": "msf-alliance-bot",
+  "version": "0.1.0",
+  "description": "Discord bot to interface with 'MSF Alliance and Raid Tools' spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndwalker/msf-alliance-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "msf",
+    "bot",
+    "marvel",
+    "strike",
+    "force",
+    "alliance"
+  ],
+  "author": "johndwalker",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/johndwalker/msf-alliance-bot/issues"
+  },
+  "homepage": "https://github.com/johndwalker/msf-alliance-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.9.0",
+    "googleapis": "^27.0.0",
+    "opn": "^5.3.0",
+    "server-destroy": "^1.0.1",
+    "sqlite": "^2.9.1",
+    "text-table": "^0.2.0"
+  }
+}
